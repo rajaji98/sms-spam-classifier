@@ -54,12 +54,12 @@ sms-spam-classifier/
 
 ## ⚙️ How It Works
 
-1. User enters a message
-2. Text is cleaned using Regular Expressions
-3. Converted into numerical form using TF-IDF
-4. Naive Bayes model predicts:
-   - Spam 🚨
-   - Ham ✅
+1. User enters a message  
+2. Text is cleaned using Regular Expressions  
+3. Converted into numerical form using TF-IDF  
+4. Naive Bayes model predicts:  
+   - Spam 🚨  
+   - Ham ✅  
 
 ---
 
@@ -69,33 +69,32 @@ sms-spam-classifier/
 
 ```bash
 git clone https://github.com/rajaji98/sms-spam-classifier.git
-cd sms-spam-classifier
+cd sms-spam-classifier 
 
+```
+### ⚙️ Step 2: Install dependencies
+```bash
+pip install -r Requirement.txt       
+   ```
 
-⚙️ Step 2: Install dependencies
-pip install -r Requirement.txt
-
-
-▶️ Step 3: Run the application
+### ▶️ Step 3: Run the application
+```bash
 python app.py
+```
 
-
-🌐 Step 4: Open in browser
+### 🌐 Step 4: Open in browser
+```bash
 http://127.0.0.1:5000
-📊 Model Details
+```
+
+
+### 📊 Model Details
 Algorithm: Multinomial Naive Bayes
 Feature Extraction: TF-IDF
 Accuracy: ~80%
 
 
-🎯 Future Improvements
-Deploy the app online (Render / Railway)
-Improve UI/UX
-Use Deep Learning models (LSTM / BERT)
-Add API support
-
-
-💼 Author
+**💼 Author**
 
 Arun Singh
 Aspiring Data Science Engineer 🚀
