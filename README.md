@@ -70,21 +70,31 @@ sms-spam-classifier/
 ```bash
 git clone https://github.com/rajaji98/sms-spam-classifier.git
 cd sms-spam-classifier
+
+
 ⚙️ Step 2: Install dependencies
 pip install -r Requirement.txt
+
+
 ▶️ Step 3: Run the application
 python app.py
+
+
 🌐 Step 4: Open in browser
 http://127.0.0.1:5000
 📊 Model Details
 Algorithm: Multinomial Naive Bayes
 Feature Extraction: TF-IDF
 Accuracy: ~80%
+
+
 🎯 Future Improvements
 Deploy the app online (Render / Railway)
 Improve UI/UX
 Use Deep Learning models (LSTM / BERT)
 Add API support
+
+
 💼 Author
 
 Arun Singh
